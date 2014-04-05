@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6E3BEA84-3B7B-460A-A521-B92B2927CA7C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SnapDiscounts</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>76E7A5EA-7986-4827-9EE4-29C40EF70997</key>
+		<string>ssh://github.com/ffjiang/hackNY.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SnapDiscounts/SnapDiscounts.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>76E7A5EA-7986-4827-9EE4-29C40EF70997</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ffjiang/hackNY.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>76E7A5EA-7986-4827-9EE4-29C40EF70997</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>76E7A5EA-7986-4827-9EE4-29C40EF70997</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hackNY</string>
+		</dict>
+	</array>
+</dict>
+</plist>

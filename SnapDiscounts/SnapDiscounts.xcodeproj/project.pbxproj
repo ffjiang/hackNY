@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCCD4F5C18F0A51B00B14ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F5B18F0A51B00B14ED8 /* Foundation.framework */; };
+		DCCD4F5E18F0A51B00B14ED8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F5D18F0A51B00B14ED8 /* CoreGraphics.framework */; };
+		DCCD4F6018F0A51B00B14ED8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F5F18F0A51B00B14ED8 /* UIKit.framework */; };
+		DCCD4F6618F0A51B00B14ED8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4F6418F0A51B00B14ED8 /* InfoPlist.strings */; };
+		DCCD4F6818F0A51B00B14ED8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4F6718F0A51B00B14ED8 /* main.m */; };
+		DCCD4F6C18F0A51B00B14ED8 /* FFJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4F6B18F0A51B00B14ED8 /* FFJAppDelegate.m */; };
+		DCCD4F6E18F0A51B00B14ED8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4F6D18F0A51B00B14ED8 /* Images.xcassets */; };
+		DCCD4F7518F0A51B00B14ED8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F7418F0A51B00B14ED8 /* XCTest.framework */; };
+		DCCD4F7618F0A51B00B14ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F5B18F0A51B00B14ED8 /* Foundation.framework */; };
+		DCCD4F7718F0A51B00B14ED8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F5F18F0A51B00B14ED8 /* UIKit.framework */; };
+		DCCD4F7F18F0A51B00B14ED8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4F7D18F0A51B00B14ED8 /* InfoPlist.strings */; };
+		DCCD4F8118F0A51B00B14ED8 /* SnapDiscountsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4F8018F0A51B00B14ED8 /* SnapDiscountsTests.m */; };
+		DCCD4F8F18F0A6D000B14ED8 /* FFJMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4F8E18F0A6D000B14ED8 /* FFJMapViewController.m */; };
+		DCCD4F9118F0A72A00B14ED8 /* FFJMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4F9018F0A72A00B14ED8 /* FFJMapViewController.xib */; };
+		DCCD4F9518F0AD7800B14ED8 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F9418F0AD7800B14ED8 /* GoogleMaps.framework */; };
+		DCCD4F9718F0ADF700B14ED8 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4F9618F0ADF700B14ED8 /* GoogleMaps.bundle */; };
+		DCCD4F9918F0AE5500B14ED8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F9818F0AE5500B14ED8 /* AVFoundation.framework */; };
+		DCCD4F9B18F0AE5C00B14ED8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F9A18F0AE5C00B14ED8 /* CoreData.framework */; };
+		DCCD4F9D18F0AEAA00B14ED8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F9C18F0AEAA00B14ED8 /* CoreLocation.framework */; };
+		DCCD4F9F18F0AEB300B14ED8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F9E18F0AEB300B14ED8 /* GLKit.framework */; };
+		DCCD4FA118F0AEBA00B14ED8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4FA018F0AEBA00B14ED8 /* ImageIO.framework */; };
+		DCCD4FA318F0AEC600B14ED8 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4FA218F0AEC600B14ED8 /* libc++.dylib */; };
+		DCCD4FA518F0AED400B14ED8 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4FA418F0AED400B14ED8 /* libicucore.dylib */; };
+		DCCD4FA718F0AEDD00B14ED8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4FA618F0AEDD00B14ED8 /* libz.dylib */; };
+		DCCD4FA918F0AEE400B14ED8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4FA818F0AEE400B14ED8 /* OpenGLES.framework */; };
+		DCCD4FAB18F0AEF300B14ED8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4FAA18F0AEF300B14ED8 /* QuartzCore.framework */; };
+		DCCD4FAD18F0AEFE00B14ED8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4FAC18F0AEFE00B14ED8 /* SystemConfiguration.framework */; };
+		DCCD4FB018F0B53A00B14ED8 /* FFJCoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4FAF18F0B53A00B14ED8 /* FFJCoreLocationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCCD4F7818F0A51B00B14ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCCD4F5018F0A51B00B14ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCCD4F5718F0A51B00B14ED8;
+			remoteInfo = SnapDiscounts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCCD4F5818F0A51B00B14ED8 /* SnapDiscounts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapDiscounts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCD4F5B18F0A51B00B14ED8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCCD4F5D18F0A51B00B14ED8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCCD4F5F18F0A51B00B14ED8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCCD4F6318F0A51B00B14ED8 /* SnapDiscounts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapDiscounts-Info.plist"; sourceTree = "<group>"; };
+		DCCD4F6518F0A51B00B14ED8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCCD4F6718F0A51B00B14ED8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCCD4F6918F0A51B00B14ED8 /* SnapDiscounts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapDiscounts-Prefix.pch"; sourceTree = "<group>"; };
+		DCCD4F6A18F0A51B00B14ED8 /* FFJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFJAppDelegate.h; sourceTree = "<group>"; };
+		DCCD4F6B18F0A51B00B14ED8 /* FFJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFJAppDelegate.m; sourceTree = "<group>"; };
+		DCCD4F6D18F0A51B00B14ED8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCCD4F7318F0A51B00B14ED8 /* SnapDiscountsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapDiscountsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCD4F7418F0A51B00B14ED8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DCCD4F7C18F0A51B00B14ED8 /* SnapDiscountsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapDiscountsTests-Info.plist"; sourceTree = "<group>"; };
+		DCCD4F7E18F0A51B00B14ED8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCCD4F8018F0A51B00B14ED8 /* SnapDiscountsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapDiscountsTests.m; sourceTree = "<group>"; };
+		DCCD4F8D18F0A6D000B14ED8 /* FFJMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFJMapViewController.h; sourceTree = "<group>"; };
+		DCCD4F8E18F0A6D000B14ED8 /* FFJMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFJMapViewController.m; sourceTree = "<group>"; };
+		DCCD4F9018F0A72A00B14ED8 /* FFJMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFJMapViewController.xib; sourceTree = "<group>"; };
+		DCCD4F9418F0AD7800B14ED8 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		DCCD4F9618F0ADF700B14ED8 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		DCCD4F9818F0AE5500B14ED8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DCCD4F9A18F0AE5C00B14ED8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DCCD4F9C18F0AEAA00B14ED8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DCCD4F9E18F0AEB300B14ED8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		DCCD4FA018F0AEBA00B14ED8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DCCD4FA218F0AEC600B14ED8 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		DCCD4FA418F0AED400B14ED8 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		DCCD4FA618F0AEDD00B14ED8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DCCD4FA818F0AEE400B14ED8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DCCD4FAA18F0AEF300B14ED8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DCCD4FAC18F0AEFE00B14ED8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DCCD4FAE18F0B53A00B14ED8 /* FFJCoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFJCoreLocationController.h; sourceTree = "<group>"; };
+		DCCD4FAF18F0B53A00B14ED8 /* FFJCoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFJCoreLocationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCCD4F5518F0A51B00B14ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD4FAD18F0AEFE00B14ED8 /* SystemConfiguration.framework in Frameworks */,
+				DCCD4FAB18F0AEF300B14ED8 /* QuartzCore.framework in Frameworks */,
+				DCCD4FA918F0AEE400B14ED8 /* OpenGLES.framework in Frameworks */,
+				DCCD4FA718F0AEDD00B14ED8 /* libz.dylib in Frameworks */,
+				DCCD4FA518F0AED400B14ED8 /* libicucore.dylib in Frameworks */,
+				DCCD4FA318F0AEC600B14ED8 /* libc++.dylib in Frameworks */,
+				DCCD4FA118F0AEBA00B14ED8 /* ImageIO.framework in Frameworks */,
+				DCCD4F9F18F0AEB300B14ED8 /* GLKit.framework in Frameworks */,
+				DCCD4F9D18F0AEAA00B14ED8 /* CoreLocation.framework in Frameworks */,
+				DCCD4F9B18F0AE5C00B14ED8 /* CoreData.framework in Frameworks */,
+				DCCD4F9918F0AE5500B14ED8 /* AVFoundation.framework in Frameworks */,
+				DCCD4F5E18F0A51B00B14ED8 /* CoreGraphics.framework in Frameworks */,
+				DCCD4F6018F0A51B00B14ED8 /* UIKit.framework in Frameworks */,
+				DCCD4F9518F0AD7800B14ED8 /* GoogleMaps.framework in Frameworks */,
+				DCCD4F5C18F0A51B00B14ED8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD4F7018F0A51B00B14ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD4F7518F0A51B00B14ED8 /* XCTest.framework in Frameworks */,
+				DCCD4F7718F0A51B00B14ED8 /* UIKit.framework in Frameworks */,
+				DCCD4F7618F0A51B00B14ED8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCCD4F4F18F0A51B00B14ED8 = {
+			isa = PBXGroup;
+			children = (
+				DCCD4F6118F0A51B00B14ED8 /* SnapDiscounts */,
+				DCCD4F7A18F0A51B00B14ED8 /* SnapDiscountsTests */,
+				DCCD4F5A18F0A51B00B14ED8 /* Frameworks */,
+				DCCD4F5918F0A51B00B14ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCCD4F5918F0A51B00B14ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD4F5818F0A51B00B14ED8 /* SnapDiscounts.app */,
+				DCCD4F7318F0A51B00B14ED8 /* SnapDiscountsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCCD4F5A18F0A51B00B14ED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD4FAC18F0AEFE00B14ED8 /* SystemConfiguration.framework */,
+				DCCD4FAA18F0AEF300B14ED8 /* QuartzCore.framework */,
+				DCCD4FA818F0AEE400B14ED8 /* OpenGLES.framework */,
+				DCCD4FA618F0AEDD00B14ED8 /* libz.dylib */,
+				DCCD4FA418F0AED400B14ED8 /* libicucore.dylib */,
+				DCCD4FA218F0AEC600B14ED8 /* libc++.dylib */,
+				DCCD4FA018F0AEBA00B14ED8 /* ImageIO.framework */,
+				DCCD4F9E18F0AEB300B14ED8 /* GLKit.framework */,
+				DCCD4F9C18F0AEAA00B14ED8 /* CoreLocation.framework */,
+				DCCD4F9A18F0AE5C00B14ED8 /* CoreData.framework */,
+				DCCD4F9818F0AE5500B14ED8 /* AVFoundation.framework */,
+				DCCD4F9618F0ADF700B14ED8 /* GoogleMaps.bundle */,
+				DCCD4F9418F0AD7800B14ED8 /* GoogleMaps.framework */,
+				DCCD4F5B18F0A51B00B14ED8 /* Foundation.framework */,
+				DCCD4F5D18F0A51B00B14ED8 /* CoreGraphics.framework */,
+				DCCD4F5F18F0A51B00B14ED8 /* UIKit.framework */,
+				DCCD4F7418F0A51B00B14ED8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCCD4F6118F0A51B00B14ED8 /* SnapDiscounts */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD4F6A18F0A51B00B14ED8 /* FFJAppDelegate.h */,
+				DCCD4F6B18F0A51B00B14ED8 /* FFJAppDelegate.m */,
+				DCCD4F8D18F0A6D000B14ED8 /* FFJMapViewController.h */,
+				DCCD4F8E18F0A6D000B14ED8 /* FFJMapViewController.m */,
+				DCCD4F9018F0A72A00B14ED8 /* FFJMapViewController.xib */,
+				DCCD4FAE18F0B53A00B14ED8 /* FFJCoreLocationController.h */,
+				DCCD4FAF18F0B53A00B14ED8 /* FFJCoreLocationController.m */,
+				DCCD4F6D18F0A51B00B14ED8 /* Images.xcassets */,
+				DCCD4F6218F0A51B00B14ED8 /* Supporting Files */,
+			);
+			path = SnapDiscounts;
+			sourceTree = "<group>";
+		};
+		DCCD4F6218F0A51B00B14ED8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD4F6318F0A51B00B14ED8 /* SnapDiscounts-Info.plist */,
+				DCCD4F6418F0A51B00B14ED8 /* InfoPlist.strings */,
+				DCCD4F6718F0A51B00B14ED8 /* main.m */,
+				DCCD4F6918F0A51B00B14ED8 /* SnapDiscounts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCCD4F7A18F0A51B00B14ED8 /* SnapDiscountsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD4F8018F0A51B00B14ED8 /* SnapDiscountsTests.m */,
+				DCCD4F7B18F0A51B00B14ED8 /* Supporting Files */,
+			);
+			path = SnapDiscountsTests;
+			sourceTree = "<group>";
+		};
+		DCCD4F7B18F0A51B00B14ED8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD4F7C18F0A51B00B14ED8 /* SnapDiscountsTests-Info.plist */,
+				DCCD4F7D18F0A51B00B14ED8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCCD4F5718F0A51B00B14ED8 /* SnapDiscounts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCD4F8418F0A51B00B14ED8 /* Build configuration list for PBXNativeTarget "SnapDiscounts" */;
+			buildPhases = (
+				DCCD4F5418F0A51B00B14ED8 /* Sources */,
+				DCCD4F5518F0A51B00B14ED8 /* Frameworks */,
+				DCCD4F5618F0A51B00B14ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapDiscounts;
+			productName = SnapDiscounts;
+			productReference = DCCD4F5818F0A51B00B14ED8 /* SnapDiscounts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCCD4F7218F0A51B00B14ED8 /* SnapDiscountsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCD4F8718F0A51B00B14ED8 /* Build configuration list for PBXNativeTarget "SnapDiscountsTests" */;
+			buildPhases = (
+				DCCD4F6F18F0A51B00B14ED8 /* Sources */,
+				DCCD4F7018F0A51B00B14ED8 /* Frameworks */,
+				DCCD4F7118F0A51B00B14ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCCD4F7918F0A51B00B14ED8 /* PBXTargetDependency */,
+			);
+			name = SnapDiscountsTests;
+			productName = SnapDiscountsTests;
+			productReference = DCCD4F7318F0A51B00B14ED8 /* SnapDiscountsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCCD4F5018F0A51B00B14ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FFJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Frank Jiang";
+				TargetAttributes = {
+					DCCD4F5718F0A51B00B14ED8 = {
+						DevelopmentTeam = MQNGUY2368;
+					};
+					DCCD4F7218F0A51B00B14ED8 = {
+						TestTargetID = DCCD4F5718F0A51B00B14ED8;
+					};
+				};
+			};
+			buildConfigurationList = DCCD4F5318F0A51B00B14ED8 /* Build configuration list for PBXProject "SnapDiscounts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCCD4F4F18F0A51B00B14ED8;
+			productRefGroup = DCCD4F5918F0A51B00B14ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCCD4F5718F0A51B00B14ED8 /* SnapDiscounts */,
+				DCCD4F7218F0A51B00B14ED8 /* SnapDiscountsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCCD4F5618F0A51B00B14ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD4F9118F0A72A00B14ED8 /* FFJMapViewController.xib in Resources */,
+				DCCD4F6618F0A51B00B14ED8 /* InfoPlist.strings in Resources */,
+				DCCD4F6E18F0A51B00B14ED8 /* Images.xcassets in Resources */,
+				DCCD4F9718F0ADF700B14ED8 /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD4F7118F0A51B00B14ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD4F7F18F0A51B00B14ED8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCCD4F5418F0A51B00B14ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD4F8F18F0A6D000B14ED8 /* FFJMapViewController.m in Sources */,
+				DCCD4F6818F0A51B00B14ED8 /* main.m in Sources */,
+				DCCD4FB018F0B53A00B14ED8 /* FFJCoreLocationController.m in Sources */,
+				DCCD4F6C18F0A51B00B14ED8 /* FFJAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD4F6F18F0A51B00B14ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD4F8118F0A51B00B14ED8 /* SnapDiscountsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCCD4F7918F0A51B00B14ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCCD4F5718F0A51B00B14ED8 /* SnapDiscounts */;
+			targetProxy = DCCD4F7818F0A51B00B14ED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCCD4F6418F0A51B00B14ED8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCD4F6518F0A51B00B14ED8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCCD4F7D18F0A51B00B14ED8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCD4F7E18F0A51B00B14ED8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCCD4F8218F0A51B00B14ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCCD4F8318F0A51B00B14ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCCD4F8518F0A51B00B14ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapDiscounts/SnapDiscounts-Prefix.pch";
+				INFOPLIST_FILE = "SnapDiscounts/SnapDiscounts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCCD4F8618F0A51B00B14ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapDiscounts/SnapDiscounts-Prefix.pch";
+				INFOPLIST_FILE = "SnapDiscounts/SnapDiscounts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DCCD4F8818F0A51B00B14ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnapDiscounts.app/SnapDiscounts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapDiscounts/SnapDiscounts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnapDiscountsTests/SnapDiscountsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DCCD4F8918F0A51B00B14ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnapDiscounts.app/SnapDiscounts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapDiscounts/SnapDiscounts-Prefix.pch";
+				INFOPLIST_FILE = "SnapDiscountsTests/SnapDiscountsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCCD4F5318F0A51B00B14ED8 /* Build configuration list for PBXProject "SnapDiscounts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD4F8218F0A51B00B14ED8 /* Debug */,
+				DCCD4F8318F0A51B00B14ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCD4F8418F0A51B00B14ED8 /* Build configuration list for PBXNativeTarget "SnapDiscounts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD4F8518F0A51B00B14ED8 /* Debug */,
+				DCCD4F8618F0A51B00B14ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCCD4F8718F0A51B00B14ED8 /* Build configuration list for PBXNativeTarget "SnapDiscountsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD4F8818F0A51B00B14ED8 /* Debug */,
+				DCCD4F8918F0A51B00B14ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCCD4F5018F0A51B00B14ED8 /* Project object */;
+}
