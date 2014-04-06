@@ -11,7 +11,7 @@
 
 @protocol CoreLocationControllerDelegate
 
-- (void)locationUpdate:(CLLocation *)location; // Our location update are sent here
+- (void)locationUpdate:(CLLocation *)location; // Our location updates are sent here
 
 - (void)locationError:(NSError *)error; // Any errors are sent here
 

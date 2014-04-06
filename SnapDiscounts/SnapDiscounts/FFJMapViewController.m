@@ -13,7 +13,9 @@
 
 @property (strong, nonatomic) GMSMapView *mapView;
 
-@property (strong, nonatomic) IBOutlet UILabel *locLabel;
+@property (strong, nonatomic) IBOutlet UITextView *locText;
+
+@property (strong, nonatomic) IBOutlet UILabel *oauthResult;
 
 @end
 
@@ -49,8 +51,8 @@
     
     // Create a GMSCameraPosition that tells the map to display the
     // coordinate -33.86, 151.20 at zoom level 6.
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
-                                                            longitude:151.20
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:self.clController.locMgr.location.coordinate.latitude
+                                                            longitude:self.clController.locMgr.location.coordinate.longitude
                                                                  zoom:6];
     
     self.mapView = [GMSMapView mapWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height * 3.0 / 5.0) camera:camera];
@@ -67,12 +69,17 @@
 
 - (void)locationUpdate:(CLLocation *)location
 {
-    self.locLabel.text = [location description];
+    self.locText.text = [location description];
 }
 
 - (void)locationError:(NSError *)error
 {
-    self.locLabel.text = [error description];
+    self.locText.text = [error description];
+}
+
+- (void)setOAuthStatus:(NSString *)resultText
+{
+    self.oauthResult.text = [NSString stringWithFormat:@"Result: %@", resultText];
 }
 
 @end

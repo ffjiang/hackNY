@@ -13,4 +13,6 @@
 
 @property (strong, nonatomic) FFJCoreLocationController *clController;
 
+- (void)setOAuthStatus:(NSString *)resultText;
+
 @end

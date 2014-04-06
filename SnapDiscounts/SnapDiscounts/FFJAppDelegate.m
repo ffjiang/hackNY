@@ -8,7 +8,9 @@
 
 #import "FFJAppDelegate.h"
 #import "FFJMapViewController.h"
+#import "FFJPreferencesViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import "FSOAuth.h"
 
 @implementation FFJAppDelegate
 
@@ -21,13 +23,56 @@
     
     FFJMapViewController *mvc = [[FFJMapViewController alloc] init];
     
+    FFJPreferencesViewController *pvc = [[FFJPreferencesViewController alloc] init];
+    
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    tabBarController.viewControllers = @[mvc];
+    tabBarController.viewControllers = @[mvc, pvc];
     
     self.window.rootViewController = tabBarController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    /*
+    // Connect to Foursquare
+    
+    NSString *clientID = @"VEBYEW4KU5IDVTY4VDMKIIYHQKMKOJVW5UYXA0IVDWAMHW1Q";
+    NSString *callbackURIString = @"snapdiscounts://foursquare";
+    
+    FSOAuthStatusCode statusCode = [FSOAuth authorizeUserUsingClientId:clientID
+                                                     callbackURIString:callbackURIString
+                                                  allowShowingAppStore:YES];
+    
+    NSString *resultText = nil;
+    
+    switch (statusCode) {
+        case FSOAuthStatusSuccess:
+            resultText = @"OAuth Success";
+            break;
+        case FSOAuthStatusErrorInvalidCallback: {
+            resultText = @"Invalid callback URI";
+            break;
+        }
+        case FSOAuthStatusErrorFoursquareNotInstalled: {
+            resultText = @"Foursquare not installed";
+            break;
+        }
+        case FSOAuthStatusErrorInvalidClientID: {
+            resultText = @"Invalid client id";
+            break;
+        }
+        case FSOAuthStatusErrorFoursquareOAuthNotSupported: {
+            resultText = @"Installed FSQ app does not support oauth";
+            break;
+        }
+        default: {
+            resultText = @"Unknown status code returned";
+            break;
+        }
+    }
+    [mvc setOAuthStatus:resultText];
+     */
+    
     return YES;
 }
 

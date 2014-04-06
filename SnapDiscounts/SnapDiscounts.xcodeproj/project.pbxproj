@@ -13,7 +13,6 @@
 		DCCD4F6618F0A51B00B14ED8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4F6418F0A51B00B14ED8 /* InfoPlist.strings */; };
 		DCCD4F6818F0A51B00B14ED8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4F6718F0A51B00B14ED8 /* main.m */; };
 		DCCD4F6C18F0A51B00B14ED8 /* FFJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4F6B18F0A51B00B14ED8 /* FFJAppDelegate.m */; };
-		DCCD4F6E18F0A51B00B14ED8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4F6D18F0A51B00B14ED8 /* Images.xcassets */; };
 		DCCD4F7518F0A51B00B14ED8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F7418F0A51B00B14ED8 /* XCTest.framework */; };
 		DCCD4F7618F0A51B00B14ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F5B18F0A51B00B14ED8 /* Foundation.framework */; };
 		DCCD4F7718F0A51B00B14ED8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4F5F18F0A51B00B14ED8 /* UIKit.framework */; };
@@ -35,6 +34,12 @@
 		DCCD4FAB18F0AEF300B14ED8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4FAA18F0AEF300B14ED8 /* QuartzCore.framework */; };
 		DCCD4FAD18F0AEFE00B14ED8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCD4FAC18F0AEFE00B14ED8 /* SystemConfiguration.framework */; };
 		DCCD4FB018F0B53A00B14ED8 /* FFJCoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4FAF18F0B53A00B14ED8 /* FFJCoreLocationController.m */; };
+		DCCD4FB818F0C9D100B14ED8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4FB718F0C9D100B14ED8 /* Images.xcassets */; };
+		DCCD4FBB18F0D5C700B14ED8 /* FSOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4FBA18F0D5C700B14ED8 /* FSOAuth.m */; };
+		DCCD4FBF18F0E5C300B14ED8 /* FFJPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4FBD18F0E5C300B14ED8 /* FFJPreferencesViewController.m */; };
+		DCCD4FC618F0E91B00B14ED8 /* FFJCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4FC518F0E91B00B14ED8 /* FFJCell.xib */; };
+		DCCD4FC918F0EB8100B14ED8 /* FFJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4FC818F0EB8100B14ED8 /* FFJCell.m */; };
+		DCCD4FCB18F0F03500B14ED8 /* FFJPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4FCA18F0F03500B14ED8 /* FFJPreferencesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +63,6 @@
 		DCCD4F6918F0A51B00B14ED8 /* SnapDiscounts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapDiscounts-Prefix.pch"; sourceTree = "<group>"; };
 		DCCD4F6A18F0A51B00B14ED8 /* FFJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFJAppDelegate.h; sourceTree = "<group>"; };
 		DCCD4F6B18F0A51B00B14ED8 /* FFJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFJAppDelegate.m; sourceTree = "<group>"; };
-		DCCD4F6D18F0A51B00B14ED8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DCCD4F7318F0A51B00B14ED8 /* SnapDiscountsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapDiscountsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCD4F7418F0A51B00B14ED8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DCCD4F7C18F0A51B00B14ED8 /* SnapDiscountsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapDiscountsTests-Info.plist"; sourceTree = "<group>"; };
@@ -82,6 +86,15 @@
 		DCCD4FAC18F0AEFE00B14ED8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DCCD4FAE18F0B53A00B14ED8 /* FFJCoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFJCoreLocationController.h; sourceTree = "<group>"; };
 		DCCD4FAF18F0B53A00B14ED8 /* FFJCoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFJCoreLocationController.m; sourceTree = "<group>"; };
+		DCCD4FB718F0C9D100B14ED8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCCD4FB918F0D5C000B14ED8 /* FSOAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSOAuth.h; sourceTree = "<group>"; };
+		DCCD4FBA18F0D5C700B14ED8 /* FSOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSOAuth.m; sourceTree = "<group>"; };
+		DCCD4FBC18F0E5C300B14ED8 /* FFJPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFJPreferencesViewController.h; sourceTree = "<group>"; };
+		DCCD4FBD18F0E5C300B14ED8 /* FFJPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFJPreferencesViewController.m; sourceTree = "<group>"; };
+		DCCD4FC518F0E91B00B14ED8 /* FFJCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFJCell.xib; sourceTree = "<group>"; };
+		DCCD4FC718F0EB8100B14ED8 /* FFJCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFJCell.h; sourceTree = "<group>"; };
+		DCCD4FC818F0EB8100B14ED8 /* FFJCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFJCell.m; sourceTree = "<group>"; };
+		DCCD4FCA18F0F03500B14ED8 /* FFJPreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFJPreferencesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +140,8 @@
 				DCCD4F7A18F0A51B00B14ED8 /* SnapDiscountsTests */,
 				DCCD4F5A18F0A51B00B14ED8 /* Frameworks */,
 				DCCD4F5918F0A51B00B14ED8 /* Products */,
+				DCCD4FB918F0D5C000B14ED8 /* FSOAuth.h */,
+				DCCD4FBA18F0D5C700B14ED8 /* FSOAuth.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +181,12 @@
 		DCCD4F6118F0A51B00B14ED8 /* SnapDiscounts */ = {
 			isa = PBXGroup;
 			children = (
+				DCCD4FBC18F0E5C300B14ED8 /* FFJPreferencesViewController.h */,
+				DCCD4FBD18F0E5C300B14ED8 /* FFJPreferencesViewController.m */,
+				DCCD4FCA18F0F03500B14ED8 /* FFJPreferencesViewController.xib */,
+				DCCD4FC718F0EB8100B14ED8 /* FFJCell.h */,
+				DCCD4FC818F0EB8100B14ED8 /* FFJCell.m */,
+				DCCD4FC518F0E91B00B14ED8 /* FFJCell.xib */,
 				DCCD4F6A18F0A51B00B14ED8 /* FFJAppDelegate.h */,
 				DCCD4F6B18F0A51B00B14ED8 /* FFJAppDelegate.m */,
 				DCCD4F8D18F0A6D000B14ED8 /* FFJMapViewController.h */,
@@ -173,7 +194,6 @@
 				DCCD4F9018F0A72A00B14ED8 /* FFJMapViewController.xib */,
 				DCCD4FAE18F0B53A00B14ED8 /* FFJCoreLocationController.h */,
 				DCCD4FAF18F0B53A00B14ED8 /* FFJCoreLocationController.m */,
-				DCCD4F6D18F0A51B00B14ED8 /* Images.xcassets */,
 				DCCD4F6218F0A51B00B14ED8 /* Supporting Files */,
 			);
 			path = SnapDiscounts;
@@ -182,6 +202,7 @@
 		DCCD4F6218F0A51B00B14ED8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DCCD4FB718F0C9D100B14ED8 /* Images.xcassets */,
 				DCCD4F6318F0A51B00B14ED8 /* SnapDiscounts-Info.plist */,
 				DCCD4F6418F0A51B00B14ED8 /* InfoPlist.strings */,
 				DCCD4F6718F0A51B00B14ED8 /* main.m */,
@@ -288,8 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCCD4F9118F0A72A00B14ED8 /* FFJMapViewController.xib in Resources */,
+				DCCD4FB818F0C9D100B14ED8 /* Images.xcassets in Resources */,
 				DCCD4F6618F0A51B00B14ED8 /* InfoPlist.strings in Resources */,
-				DCCD4F6E18F0A51B00B14ED8 /* Images.xcassets in Resources */,
+				DCCD4FCB18F0F03500B14ED8 /* FFJPreferencesViewController.xib in Resources */,
+				DCCD4FC618F0E91B00B14ED8 /* FFJCell.xib in Resources */,
 				DCCD4F9718F0ADF700B14ED8 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,9 +332,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCD4FC918F0EB8100B14ED8 /* FFJCell.m in Sources */,
 				DCCD4F8F18F0A6D000B14ED8 /* FFJMapViewController.m in Sources */,
 				DCCD4F6818F0A51B00B14ED8 /* main.m in Sources */,
+				DCCD4FBB18F0D5C700B14ED8 /* FSOAuth.m in Sources */,
 				DCCD4FB018F0B53A00B14ED8 /* FFJCoreLocationController.m in Sources */,
+				DCCD4FBF18F0E5C300B14ED8 /* FFJPreferencesViewController.m in Sources */,
 				DCCD4F6C18F0A51B00B14ED8 /* FFJAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,6 +551,7 @@
 				DCCD4F8618F0A51B00B14ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCCD4F8718F0A51B00B14ED8 /* Build configuration list for PBXNativeTarget "SnapDiscountsTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +560,7 @@
 				DCCD4F8918F0A51B00B14ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
