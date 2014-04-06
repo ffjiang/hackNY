@@ -40,6 +40,8 @@
 		DCCD4FC618F0E91B00B14ED8 /* FFJCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4FC518F0E91B00B14ED8 /* FFJCell.xib */; };
 		DCCD4FC918F0EB8100B14ED8 /* FFJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4FC818F0EB8100B14ED8 /* FFJCell.m */; };
 		DCCD4FCB18F0F03500B14ED8 /* FFJPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4FCA18F0F03500B14ED8 /* FFJPreferencesViewController.xib */; };
+		DCCD4FCF18F1178D00B14ED8 /* FFJVenueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD4FCD18F1178D00B14ED8 /* FFJVenueViewController.m */; };
+		DCCD4FD018F1178D00B14ED8 /* FFJVenueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCD4FCE18F1178D00B14ED8 /* FFJVenueViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,9 @@
 		DCCD4FC718F0EB8100B14ED8 /* FFJCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFJCell.h; sourceTree = "<group>"; };
 		DCCD4FC818F0EB8100B14ED8 /* FFJCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFJCell.m; sourceTree = "<group>"; };
 		DCCD4FCA18F0F03500B14ED8 /* FFJPreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFJPreferencesViewController.xib; sourceTree = "<group>"; };
+		DCCD4FCC18F1178D00B14ED8 /* FFJVenueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFJVenueViewController.h; sourceTree = "<group>"; };
+		DCCD4FCD18F1178D00B14ED8 /* FFJVenueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFJVenueViewController.m; sourceTree = "<group>"; };
+		DCCD4FCE18F1178D00B14ED8 /* FFJVenueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFJVenueViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +197,9 @@
 				DCCD4F8D18F0A6D000B14ED8 /* FFJMapViewController.h */,
 				DCCD4F8E18F0A6D000B14ED8 /* FFJMapViewController.m */,
 				DCCD4F9018F0A72A00B14ED8 /* FFJMapViewController.xib */,
+				DCCD4FCC18F1178D00B14ED8 /* FFJVenueViewController.h */,
+				DCCD4FCD18F1178D00B14ED8 /* FFJVenueViewController.m */,
+				DCCD4FCE18F1178D00B14ED8 /* FFJVenueViewController.xib */,
 				DCCD4FAE18F0B53A00B14ED8 /* FFJCoreLocationController.h */,
 				DCCD4FAF18F0B53A00B14ED8 /* FFJCoreLocationController.m */,
 				DCCD4F6218F0A51B00B14ED8 /* Supporting Files */,
@@ -312,6 +320,7 @@
 				DCCD4FB818F0C9D100B14ED8 /* Images.xcassets in Resources */,
 				DCCD4F6618F0A51B00B14ED8 /* InfoPlist.strings in Resources */,
 				DCCD4FCB18F0F03500B14ED8 /* FFJPreferencesViewController.xib in Resources */,
+				DCCD4FD018F1178D00B14ED8 /* FFJVenueViewController.xib in Resources */,
 				DCCD4FC618F0E91B00B14ED8 /* FFJCell.xib in Resources */,
 				DCCD4F9718F0ADF700B14ED8 /* GoogleMaps.bundle in Resources */,
 			);
@@ -335,6 +344,7 @@
 				DCCD4FC918F0EB8100B14ED8 /* FFJCell.m in Sources */,
 				DCCD4F8F18F0A6D000B14ED8 /* FFJMapViewController.m in Sources */,
 				DCCD4F6818F0A51B00B14ED8 /* main.m in Sources */,
+				DCCD4FCF18F1178D00B14ED8 /* FFJVenueViewController.m in Sources */,
 				DCCD4FBB18F0D5C700B14ED8 /* FSOAuth.m in Sources */,
 				DCCD4FB018F0B53A00B14ED8 /* FFJCoreLocationController.m in Sources */,
 				DCCD4FBF18F0E5C300B14ED8 /* FFJPreferencesViewController.m in Sources */,

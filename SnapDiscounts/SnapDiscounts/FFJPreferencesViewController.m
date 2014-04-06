@@ -34,7 +34,7 @@
 {
     [super viewDidLoad];
     
-    [self.collectionView registerNib:[UINib nibWithNibName:@"Cell" bundle:nil]
+    [self.collectionView registerNib:[UINib nibWithNibName:@"FFJCell" bundle:nil]
           forCellWithReuseIdentifier:@"CELL"];
     
     
@@ -47,14 +47,14 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 3;
+    return 20;
 }
 
 // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
 - (FFJCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     FFJCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CELL" forIndexPath:indexPath];
-    cell.cellLabel.text = [NSString stringWithFormat:@"cell %li",(long)indexPath.row];
+   // cell.cellLabel.text = [NSString stringWithFormat:@"cell %li",indexPath.row];
     return cell;
 }
 
@@ -64,6 +64,7 @@
     UILabel *label = [views objectAtIndex:0];
     NSLog(@"Select %@",label.text);
 }
+
 
 
 @end

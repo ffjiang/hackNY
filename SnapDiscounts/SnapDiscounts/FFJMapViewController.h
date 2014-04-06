@@ -13,6 +13,11 @@
 
 @property (strong, nonatomic) FFJCoreLocationController *clController;
 
-- (void)setOAuthStatus:(NSString *)resultText;
+
+- (IBAction)connectTapped:(id)sender;
+
+- (IBAction)findVenuesTapped:(id)sender;
+
+- (void)handleURL:(NSURL *)url;
 
 @end
