@@ -13,6 +13,11 @@
 
 @implementation FFJAppDelegate
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    [self.mvc handleURL:url];
+    return YES;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -20,12 +25,12 @@
  
     [GMSServices provideAPIKey:@"AIzaSyANIkOmZLkRIGCb3enVGTBuc2fPezlECAQ"];
     
-    FFJMapViewController *mvc = [[FFJMapViewController alloc] init];
+    self.mvc = [[FFJMapViewController alloc] init];
     
-    FFJPreferencesViewController *pvc = [[FFJPreferencesViewController alloc] init];
+    self.pvc = [[FFJPreferencesViewController alloc] init];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    tabBarController.viewControllers = @[mvc, pvc];
+    tabBarController.viewControllers = @[self.mvc, self.pvc];
     
     self.window.rootViewController = tabBarController;
     

@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FFJMapViewController.h"
+#import "FFJPreferencesViewController.h"
 
 @interface FFJAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) FFJMapViewController *mvc;
+
+@property (strong, nonatomic) FFJPreferencesViewController *pvc;
 
 @end

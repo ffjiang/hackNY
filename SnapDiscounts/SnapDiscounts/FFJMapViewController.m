@@ -27,6 +27,8 @@
 @property (strong, nonatomic) NSString *clientSecret;
 @property (strong, nonatomic) NSString *callbackURIString;
 
+@property (strong, nonatomic) NSString *authToken;
+
 @end
 
 @implementation FFJMapViewController
@@ -59,6 +61,9 @@
 
 - (void)viewDidLoad
 {
+    // Find venues button should not appear until connected to Foursquare
+    [self.findVenuesButton removeFromSuperview];
+    
     self.clController = [[FFJCoreLocationController alloc] init];
     self.clController.delegate = self;
     [self.clController.locMgr startUpdatingLocation];
@@ -188,6 +193,7 @@
                                NSString *resultText = nil;
                                if (requestCompleted) {
                                    if (errorCode == FSOAuthErrorNone) {
+                                       self.authToken = authToken;
                                        resultText = [NSString stringWithFormat:@"Auth Token: %@", authToken];
                                    }
                                    else {
@@ -197,8 +203,6 @@
                                else {
                                    resultText = @"An error occurred when attempting to connect to the Foursquare server.";
                                }
-                               
-                               self.resultLabel.text = [NSString stringWithFormat:@"Result: %@", resultText];
                            }];
             
         } else {
@@ -206,13 +210,19 @@
         }
         self.resultLabel.text = [NSString stringWithFormat:@"Result: %@", resultText];
         [self.connectButton removeFromSuperview];
+        [self.view addSubview: self.findVenuesButton];
     }
 }
 
 - (void)findVenuesTapped:(id)sender
 {
-    NSString *urlString = [NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/explore?ll=%f,%f",            self.clController.locMgr.location.coordinate.latitude,
-                        self.clController.locMgr.location.coordinate.longitude];
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"YYYYMMDD"];
+    NSString *date = [dateFormatter stringFromDate:[NSDate date]];
+    NSString *urlString = [NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/explore?ll=%f,%f&oauth_token=%@&v=%@",            self.clController.locMgr.location.coordinate.latitude,
+                                       self.clController.locMgr.location.coordinate.longitude,
+                                       self.authToken,
+                                        date];
     NSURL *url = [NSURL URLWithString:urlString];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url
                                                            cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData
